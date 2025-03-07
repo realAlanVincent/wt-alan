@@ -1,0 +1,1 @@
+If you replace <ul> (unordered list) with <ol> (ordered list), the list items will be displayed with numbers instead of bullet points.
