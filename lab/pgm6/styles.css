@@ -1,0 +1,30 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #000;
+}
+
+caption
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+th, td
+{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+th
+{
+    background-color: #ddd;
+}
