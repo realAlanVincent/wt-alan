@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lulu Supermarket</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header 
+        {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .nav 
+        {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav a 
+        {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        .nav a:hover 
+        {
+            background-color: #4CAF50;
+        }
+
+        .container 
+        {
+            padding: 20px;
+        }
+
+        .section 
+        {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+        }
+
+        .product 
+        {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .product img 
+        {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #ddd;
+        }
+
+        .buy-btn 
+        {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .buy-btn:hover 
+        {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Kerala Supermarket
+        <p>Your one-stop shop for groceries!</p>
+    </div>
+
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#offers">Offers</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <div id="home" class="section">
+            <h2>Welcome to Kerala Supermarket</h2>
+            <p>We offer fresh groceries, household essentials, and more at the best prices.</p>
+        </div>
+
+        <div id="products" class="section">
+            <h2>Our Products</h2>
+
+            <div class="product">
+                <img src="https://i.imgur.com/OP6WWYH.jpeg" alt="Fresh Fruits">
+                <h3>Fresh Fruits</h3>
+                <p>Organic and farm-fresh fruits directly from Kerala's farms.</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.imgur.com/f2L1tyG.jpeg" alt="Vegetables">
+                <h3>Vegetables</h3>
+                <p>Locally grown, fresh vegetables delivered daily.</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.imgur.com/ekriyBC.jpeg" alt="Kerala Spices">
+                <h3>Kerala Spices</h3>
+                <p>Authentic spices to add flavor to your cooking.</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+        <div id="offers" class="section">
+            <h2>Special Offers</h2>
+            <p>Buy 1 Get 1 Free, 20% off on organic products, and more exciting deals.</p>
+        </div>
+
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>Established in 2005, Kerala Supermarket brings you fresh groceries with great deals every day.</p>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: info@lulu.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Address: MG Road, Kochi, Kerala - 987654</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
